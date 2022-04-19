@@ -1,0 +1,133 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  align-items: center;
+  min-height: 100vh;
+}
+main{
+  width: 60rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* background: black */
+}
+
+form{
+  width: 33rem;
+}
+
+.pTwo{
+  /* flex-basis: 15%; */
+  display: flex;
+  align-items: center;
+}
+.phonetics{
+  height: 3rem;
+  width: 20rem;
+}
+audio{
+  display: block;
+  height: 2.5rem;
+  width: 33rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background: rgb(197,214,197);
+  background: linear-gradient(22deg, rgba(197,214,197,1) 0%, rgba(56,166,114,1) 100%);
+  color: hsl(179, 100%, 13%);
+}
+main{
+  padding: 2rem 2rem;
+  margin: 5rem auto;
+}
+.part{
+  margin-bottom: 2rem;
+  width: 33rem;
+}
+form{
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  hsl(179, 100%, 13%);
+  color: hsla(0, 6%, 93%, 0.75);
+  border-radius: 1.5rem;
+}
+.part {
+  margin: 0 auto;
+}
+
+label{
+  font-size: 1.6rem;
+  padding-left: 2rem;
+}
+input[type=search]{
+  height: 3rem;
+  font-size: 1.3rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0.5rem;
+  margin-right: 1rem;
+  background-color:  hsl(179, 100%, 13%);
+  border: none;
+  border-left: 1px solid hsla(0, 0%, 100%, 0.75);
+}
+input:focus{
+  border: none
+}
+i{
+  font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-right: 2rem;
+}
+h2{
+  font-size: 1.6rem;
+  display: inline-block;
+}
+p{
+  font-size: 1.4rem;
+  display: inline-block;
+  font-weight: 400;
+}
+.inputtedWord{
+  margin-right: 3rem;
+  font-size: 2.5rem;
+}
+.phonetics{
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+.partOfSpeech{
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+audio {
+  mix-blend-mode: multiply;
+  margin: 3rem 0 1rem 0;
+}
+.pThree {
+  visibility: hidden !important;
+}
+div {
+  margin-bottom: 1rem;
+}
